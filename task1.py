@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.dates as mdates
 
 # File path
-path = r'/drive/notebooks/Nat_Gas.csv'
+path = r'/workspaces/JPQuantForage/gas.csv'
 
 # Initialize lists
 dates = []
