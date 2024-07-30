@@ -43,8 +43,8 @@ plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%b'))
 
 plt.show()
 
-input_date = input("Enter a date (mm/dd/yy): ")
-#input_date = "12/31/24"
+#input_date = input("Enter a date (mm/dd/yy): ")
+input_date = "12/31/24"
 
 input_datetime = datetime.strptime(input_date, "%m/%d/%y")
 input_numeric_date = mdates.date2num(input_datetime)
