@@ -12,9 +12,12 @@ You can explore any technique ranging from a simple regression or a decision tre
 advanced. You can also use multiple methods and provide a comparative analysis.
 Submit your code below."""
 
-import pandas as pd
+def main():
+    import pandas as pd
 
-path = r'Task 3 and 4_Loan_Data.csv'
+    path = r'Task 3 and 4 Loan Data.csv'
+    df = pd.read_csv(path)
 
-df = pd.read_csv(path)
-print(df.columns)
+
+if __name__ == "__main__":
+    main()
